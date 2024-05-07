@@ -1,0 +1,32 @@
+POST localhost:8080/adopter
+Content-Type: application/json
+
+{"name": "Luis", "phoneNumber": "584-001-580", "dateAdoption": "2024-04-15"}
+###
+
+POST localhost:8080/adopter
+Content-Type: application/json
+
+{"name": "Melissa", "phoneNumber": "114-401-577", "dateAdoption": "2024-04-21", "typePet": "Cat", "namePet": "Pelusa", "breedPet": "NA"}
+###
+
+DELETE localhost:8080/adopter/2
+###
+
+POST localhost:8080/adopter
+Content-Type: application/json
+
+{"name": "karla", "phoneNumber": "104-401-577", "dateAdoption": "2024-04-22", "typePet": "Dog", "namePet": "Rex", "breedPet": "Callejero"}
+###
+
+PUT localhost:8080/adopter
+Content-Type: application/json
+
+{"id": 3,"name": "karla Update", "phoneNumber": "111-001-002", "dateAdoption": "2024-04-22", "typePet": "Dog", "namePet": "Rex", "breedPet": "Callejero"}
+###
+
+GET http://localhost:8080/adopter/getAllAdopters
+###
+
+GET http://localhost:8080/adopter/getAdopterById/1
+###

@@ -15,6 +15,9 @@ public class Adopter {
     private String namePet;
     private String breedPet;
 
+    public Adopter() {
+    }
+
     public int getId() {
         return id;
     }

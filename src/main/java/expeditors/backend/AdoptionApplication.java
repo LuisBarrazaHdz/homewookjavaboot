@@ -18,6 +18,7 @@ public class AdoptionApplication {
 	}
 }
 
+/*
 @Component
 class GoCmdLine implements CommandLineRunner
 {
@@ -51,4 +52,4 @@ class GoCmdLine implements CommandLineRunner
 		adopterService.getAllAdopters().forEach(System.out::println);
 
 	}
-}
+}*/
